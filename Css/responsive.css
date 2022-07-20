@@ -1,0 +1,202 @@
+/*-------------------------
+ Mobile View Start
+ ----------------------*/
+@media only screen and (max-width: 600px) {
+    .header-section{
+        background-color: #161616;
+        display: block;
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+    /* Banner Text */
+    .header-info {
+        width: 100%;
+        text-align: center;
+    }
+    .header-info h1 {
+        color: #fff;
+        font-size: 3rem;
+        padding-top: 50px;
+    }
+    .header-info p {
+        color: #fff;
+        font-size: 18px;
+        margin-top: 20px;
+        padding: 0 20px;
+    }
+    /* Banner Img */
+    .header-img {
+        width: 100%;
+    }
+    /* Blog */
+    .blog-section{
+        flex-direction: column
+    }
+    .blog-info{
+        grid-template-columns: auto;
+        width: 100%;
+        margin-left: 0;
+    }
+    /* Button */
+    .blog-btn{
+        display: none;
+    }
+    .blog-btn-responsive{
+    width: auto;
+    border-radius: 10px;
+    background-color: transparent;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 30px;
+    }
+    .blog-btn-responsive a{
+        display: block;
+        padding: 16px 25px;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #000;
+        font-size: 18px;
+        background-color: transparent;
+        margin: 15px 15px;
+        text-align: center;
+        border: 1px solid rgba(0, 0, 0, 0.30);
+    }
+    .blog-btn-responsive a:hover{
+        background-color: #74ACDF;
+    }
+    #active{
+        background-color: #7F1431;
+        color: #FFF;
+    }
+    /* Footer */
+    .footer h2{
+        padding-top: 2em;
+        padding-bottom: 1.5rem;
+    }
+    .footer ul{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap:15px ;
+    }
+}
+/*-------------------------
+ Mobile View End
+ ----------------------*/
+
+
+
+
+/*-------------------------
+ Tablet View Start
+ ----------------------*/
+@media only screen and (max-width: 1080px)and (min-width: 600px) {
+    /* Header Section */
+    .header-section{
+        background-color: #161616;
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        width: 90%;
+        border-radius: 30px;
+        margin-left: 5%;
+        margin-top: 20px;
+    }
+    /* Banner Text */
+    .header-info {
+        width: 50%;
+        text-align: center;
+    }
+    .header-info h1 {
+        color: #fff;
+        font-size: 3rem;
+        padding: 10px 0 0 0;
+    }
+    .header-info p {
+        color: #fff;
+        font-size: 18px;
+        margin-top: 10px;
+        padding: 0 20px;
+    }
+    .header-info a{
+        margin-bottom: 10px;
+    }
+    /* Banner Img */
+    .header-img {
+        width: 50%;
+    }
+    /* Blog Section */
+    .blog-section{
+        flex-direction: column
+    }
+    .blog-info{
+        grid-template-columns: auto auto;
+        width: 100%;
+        margin-left: 0;
+    }
+        /* Button */
+    .blog-btn{
+        display: none;
+    }
+    .blog-btn-responsive{
+        width: auto;
+        border-radius: 10px;
+        background-color: transparent;
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+    }
+    .blog-btn-responsive a{
+        display: block;
+        padding: 16px 25px;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #000;
+        font-size: 18px;
+        background-color: transparent;
+        margin: 15px 15px;
+        text-align: center;
+        border: 1px solid rgba(0, 0, 0, 0.30);
+    }
+    .blog-btn-responsive a:hover{
+        background-color: #74ACDF;
+    }
+    #active{
+        background-color: #7F1431;
+        color: #FFF;
+    }
+    .view-all-btn{
+        display: flex;
+        text-align: center;
+        padding-top: 40px;
+    }
+    .view-all-btn a{
+        padding: 10px 14px;
+        background-color: #74ACDF;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #FFF;
+    }
+    .view-all-btn a:hover{
+        background-color: #7F1431;
+    }
+    /* Footer */
+    .footer h2{
+        padding-top: 2em;
+        padding-bottom: 1.5rem;
+    }
+    .footer ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap:15px ;
+    }
+    
+}
+/*-------------------------
+ Mobile View End
+ ----------------------*/
+
+

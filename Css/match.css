@@ -1,0 +1,27 @@
+/*-------------------------------
+ Match Section Start 
+ --------------------------------*/
+.flag{
+    display: flex;
+    align-items: center;
+}
+.flag img{
+    padding: 10px;
+    margin-top: 20px;
+    width: 90%;
+}
+#vs{
+    font-weight: bold;
+    padding-top: 25px;
+}
+.blog h3{
+    text-align: center;
+    padding-bottom: 5px;
+}
+.blog p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+/*-------------------------------
+ Match Section End 
+ --------------------------------*/

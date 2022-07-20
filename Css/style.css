@@ -1,0 +1,223 @@
+/* --------------------------------------------------
+            Color Template
+    ----------------------------------
+            Primary - #74ACDF
+            Secondary - #7F1431
+            background-color - #161616
+            Border Color - rgba(0, 0, 0, 0.30)
+------------------------------------------------------*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+/*------ -------------------------------
+Header Css Start 
+----------------------------------------- */
+.header-section{
+    background-color: #161616;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    border-radius: 30px;
+    margin-left: 5%;
+    margin-top: 50px;
+    align-items: center;
+}
+.header-info{
+    width: 45%;
+}
+.header-info h1{
+    color: #fff;
+    font-size: 4.375rem;
+}
+.header-info p{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+    width: 90%;
+}
+.header-info a{
+    padding: 16px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    background-color: #74ACDF;
+    display: inline-block;
+    margin-top:30px ;
+    transition-property: color, padding;
+    transition-duration: 0.5s;
+}
+.header-info a:hover{
+    padding: 16px 35px;
+    background-color: #7F1431;
+}
+.header-img{
+    width: 45%;
+}
+.header-img img{
+    width: 100%;
+    padding-top: 30px;
+    margin-bottom: -4px;
+    transition: transform ease-out 1s;
+}
+.header-img img:hover{
+    transform: translateX(30px);
+}
+/*-------------------------------
+ Header Section End 
+ --------------------------------*/
+
+ /*-------------------------------
+ Blog Section Start 
+ --------------------------------*/
+.blog-section{
+    display: flex;
+    align-items: flex-start;
+    margin-left:5%;
+    margin-right: 5%;
+    margin-top: 11vh;
+    margin-bottom: 11vh;
+}
+.blog-btn{
+    background-color: #161616;
+    width: 25%;
+    border-radius: 10px;
+}
+.blog-btn-responsive{
+    display: none;
+}
+.blog-btn a{
+    display: block;
+    padding: 16px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    background-color: #74ACDF;
+    margin: 35px 12px;
+    text-align: center;
+}
+.blog-btn a:hover{
+    background-color: #7F1431;
+}
+#active{
+    background-color: #7F1431;
+}
+.blog-info{
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-right: 2%;
+    margin-left: 30px;
+}
+.blog{
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    border-radius: 10px;
+    box-shadow: 0px 17px 58px rgba(0, 0, 0, 0.10);
+}
+.blog img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.blog a{
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    border-radius: 5px;
+    padding: 7px 14px;
+    display: inline-block;
+    color: #161616;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 10px 0 10px 20px;
+}
+.blog a:hover{
+    background-color: #74ACDF;
+    color: #fff;
+}
+.blog h3{
+    font-size: 18px;
+    margin: 5px 10px 10px 20px;
+}
+.blog-i{
+    display: flex;
+    justify-content: space-evenly;
+}
+.blog-i i{
+    margin: 5px 10px 10px 20px;
+}
+.blog-i p{
+    display: inline;
+    margin-left: 5px;
+    letter-spacing: 1.2px;
+}
+.view-all-btn{
+    display: none;
+}
+/*-------------------------------
+ Blog Section End 
+ --------------------------------*/
+
+/*------------------------------------
+ Footer Section Start
+ ------------------------------------*/
+.footer-section{
+    background-color: #161616;
+    width: 100%;
+}
+.footer{
+    text-align: center;
+}
+.footer h2{
+    color: #fff;
+    font-size: 2.188em;
+    padding-top: 3em;
+    padding-bottom: 1.875rem;
+}
+.footer h2::first-letter{
+    font-size: 3.75rem;
+    color: #74ACDF;
+}
+
+.footer h2 span{
+    color: #7F1431;
+}
+.footer h2 span:hover{
+    color: #74ACDF;
+}
+.footer-line{
+    border: 1px solid rgba(255, 255, 255, 0.156);
+}
+.footer ul{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer li{
+    display: inline;
+    padding-left: 50px;
+}
+.footer li a{
+    color: #74ACDF;
+    text-decoration: none;
+}
+.footer li a:hover{
+    color: #7F1431;
+}
+.footer i{
+    color: #7F1431;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-size:2.188rem ;
+}
+.footer i:hover{
+    color: #74ACDF;
+}
+/*-------------------------------
+ Footer Section End 
+ --------------------------------*/
