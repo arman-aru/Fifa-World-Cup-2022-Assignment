@@ -169,7 +169,7 @@
         color: #FFF;
     }
     .view-all-btn{
-        display: flex;
+        display: inline-block;
         text-align: center;
         padding-top: 40px;
     }

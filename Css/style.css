@@ -113,7 +113,6 @@ Header Css Start
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-    margin-right: 2%;
     margin-left: 30px;
 }
 .blog{
@@ -146,8 +145,8 @@ Header Css Start
     margin: 5px 10px 10px 20px;
 }
 .blog-i{
-    display: flex;
-    justify-content: space-evenly;
+    display: inline;
+    text-align: center;
 }
 .blog-i i{
     margin: 5px 10px 10px 20px;
